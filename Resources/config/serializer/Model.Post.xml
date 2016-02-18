@@ -24,9 +24,9 @@
             <xml-list inline="false" entry-name="tag" />
         </property>
 
-        <property name="author"     serialized-name="user_id"       type="sonata_user_user_id"                 expose="true" since-version="1.0" groups="sonata_api_read,sonata_api_write,sonata_search" />
+        <property name="author"     serialized-name="user_id"       type="object"                 expose="true" since-version="1.0" groups="sonata_api_read,sonata_api_write,sonata_search" />
         <property name="image"      serialized-name="media_id"      type="sonata_media_media_id"               expose="true" since-version="1.0" groups="sonata_api_read,sonata_api_write,sonata_search" />
-        <property name="collection" serialized-name="collection_id" type="sonata_classification_collection_id" expose="true" since-version="1.0" groups="sonata_api_read,sonata_api_write,sonata_search" />
+        <property name="collection" serialized-name="collection_id" type="object" expose="true" since-version="1.0" groups="sonata_api_read,sonata_api_write,sonata_search" />
 
     </class>
 </serializer>
